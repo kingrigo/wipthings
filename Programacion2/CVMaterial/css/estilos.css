@@ -1,10 +1,23 @@
 body {
     background-color: grey;
 }   
-.cv-title {
-    
+/* .cv-slogan {
+    font-size: 35px;
+    padding-top: 2%;
+} */
+
+
+
+.cv-presentacion{
+    position:relative;
+    background: #f3f3f3;
+    height: 350px;
 }
 
+.cv-titulo-image {
+    padding-left: 3%;
+    width:75%;
+}
 .d-card{
 
     width: 100%;
