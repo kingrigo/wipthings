@@ -2,19 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CV Rodrigo Urban</title>
 
-    <link rel="stylesheet" href="css/material.min.css">
+    <!-- <link rel="stylesheet" href="css/material.min.css"> -->
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue_grey-blue.min.css" />
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
  <div class="mdl-layout mdl-layout-js mdl-layout--fixed-header">
-    <header class="mdl-layout__header">
+    <header class="mdl-layout__header mdl-layout__header--waterfall">
         <div class="mdl-layout__header-row">
-            <div class="mdl-layout-spacer"></div>
-            <span class="mdl-layout-title">Curriculum Vitae</span>
+            <span class="mdl-layout-title cv-title">
+                <img class="cv-logo-image" src="img/cv-image.png" alt="Logo">
+            </span> <!--Poner img-->
+            
         </div>
     </header>
     <main class="mdl-layout__content">
@@ -22,7 +25,7 @@
             Aca pongo una card por cada uno de los contenidos (Datos, contacto, etc.)
         -->
         <div class="mdl-grid">
-            <div class="mdl-cell mdl-cell--8-col mdl-cell--2-offset" >
+            <div class="mdl-cell mdl-cell--8-col mdl-cell--2-offset mdl-typography--text-center" >
                 <div class="demo-card-square mdl-card mdl-shadow--8dp datos-card">
                         <div class="mdl-card__title mdl-card--expand">
                             <h2 class="mdl-card__title-text">Datos Personales</h2>
@@ -81,7 +84,7 @@
             <div class="mdl-cell mdl-cell--8-col mdl-cell--2-offset">
                     <div class="demo-card-square mdl-card mdl-shadow--8dp d-card">
                             <div class="mdl-card__title mdl-card--expand">
-                                <h2 class="mdl-card__title-text">Cursos y otras habilidades</h2>
+                                <h2 class="mdl-card__title-text">Cursos</h2>
                             </div>
                             <div class="mdl-card__supporting-text">
                                 <p>

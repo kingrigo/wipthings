@@ -1,5 +1,8 @@
 body {
     background-color: grey;
+}   
+.cv-title {
+    
 }
 
 .d-card{
@@ -9,5 +12,4 @@ body {
 
 .datos-card {
     width: 100%;
-    text-align:center;
 }
