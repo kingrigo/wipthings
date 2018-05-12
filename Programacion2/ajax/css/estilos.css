@@ -1,0 +1,19 @@
+#contenedora{
+  position: relative;
+  margin: 0px auto;
+  background-color: #3300FF;
+  height: 100%;
+  width: 900px;
+}
+#titular{
+    float:left;
+    height:200px;
+    background-color: #33CC66;
+    width:900px;
+}
+#centro{
+    float:left;
+    height:400px;
+    background-color: #FF6633;
+    width:900px;
+}

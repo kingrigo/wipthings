@@ -1,0 +1,82 @@
+body {
+    background: #7474BF;
+    background: -webkit-linear-gradient(to left, #348AC7, #7474BF);  
+    background: linear-gradient(to left, #348AC7, #7474BF);
+}
+.container{
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 0px 2px 3px #555;
+    position: relative;
+}
+header {
+    height: 180px;
+    text-align: center;
+    padding-top: 2%;
+    padding-left: 9%;
+}
+.headerSpan {
+    padding-top: 5%;
+}
+
+footer {
+    color: blanchedalmond;
+    height: 100px;
+    text-align: center;
+    clear: both;
+    padding-left: 9%;
+
+}
+
+.container aside {
+    float: left;
+    width: 10%;
+}
+
+.container nav ul {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    background-color: #0D324D;
+    list-style: none;   
+}
+.container nav ul li a {
+    display: block;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+    color: #C7DBD0;
+}
+
+.container nav ul li a:hover {
+    background-color: #558F6E;
+}
+
+
+.img-presentation {
+    border-radius: 50%;
+    height: 160px;
+    width: 160px;
+}
+
+
+article {
+    border: px solid black;
+    width: 90%;
+    float: right;
+}
+
+.inicio {
+    text-align: center;
+}
+.info {
+    text-align:center;
+    font-size:35px;
+    color: blanchedalmond;
+}
+.info #datos {
+    padding-top: 10px;
+}

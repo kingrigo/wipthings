@@ -1,0 +1,20 @@
+Tabla - Relacion
+Fila  - Tupla
+Columnas - Atributos
+*Cant de atributos de una relacion - Grado
+Cant. de tuplas - Cardinalidad
+Conjunto de valores posibles que puede adoptar un atributo (variables limitadas [edad = 0 - 120, genero = femenino, masculino]) - Dominio
+Cabezera: Par ordenado Par-Atributo.
+
+
+Base de datos relacional 
+Percibida por el usuario como un conjunto de relaciones normalizados (Reglas especficias) 
+con distintos grados*
+Es una base de datos
+Varian a traves del tiempo
+Los atributos no estan ordenados
+Las tuplas no tienen orden 
+Cada una de las celdas son atomicos (Solo aceptan un valor a la vez)
+En una tabla no puede haber celdas vacías, salvo por null
+Todas las tablas tienen que tener un identificador único que se llamada Clave Primaria (ID)
+

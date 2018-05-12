@@ -1,0 +1,24 @@
+/*##COLORES: 282828, 424242, FFFFFF, FF6D37, FE7138*/
+body.login-body{
+    background-color: #FEAA8E; 
+}
+
+.container.login {
+    margin-top:8%;
+}
+
+.card.login {
+    padding: 40px 0px 20px;
+}
+.container-fluid {
+    background: goldenrod;
+    height: 5rem;
+}
+
+/*########## DEFAULTS ######*/
+
+/*########## NAVBAR #######*/
+
+/*############# Custom styles  #################*/
+
+/*############ MOBILE ###############*/
